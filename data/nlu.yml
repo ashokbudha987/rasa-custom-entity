@@ -1,0 +1,411 @@
+version: "3.1"
+
+nlu:
+- intent: inform_preferences
+    - showing [sales to profit ratio](preference)
+    - show me [profit to sale ratio](preference)
+    - can I see [profit to sale ratio](preference)  and [profit amount](preference)
+    - can I see [profit to sales ratio](preference)  and [profit amount](preference)
+    - show me [purchase to profit ratio](preference)
+    - Showing [P/S ratio](preference), [sales to loss ratio](preference)
+    - add me parameters [total amount](preference), [P/R ratio](preference)
+    - [A/B Ratio](preference)
+    - [loss to purchase ratio](preference), [p/f ratio](preference), [c/d](preference)
+    - add me the information for [profit](preference), [total amount](preference), 
+    - generate me information on [profit to sales ratio](preference), [amount](preference)
+    - pleases highlight on [total amount](preference), [sales to profit ratio](preference)
+    - can you extend the report with [profit to sales ratio](preference), [profit%](preference)
+    - i also need [loss%](preference), [profit to sales ratio](preference)
+    - Indicate the parameters [profit to sale ratio](preference), [loss amount](preference)
+    - show me the [sales to profit ratio](preference)
+    - display the [profit to sales ratio](preference)
+    - can I see the [profit to sales ratio](preference) and the [profit amount](preference)
+    - show me the [purchase to profit ratio](preference)
+    - show [P/S ratio](preference) and [sales to loss ratio](preference)
+    - add parameters for [total amount](preference) and [P/R ratio](preference)
+    - show [A/B Ratio](preference)
+    - provide [loss to purchase ratio](preference), [p/f ratio](preference), and [c/d ratio](preference)
+    - include information for [profit](preference) and [total amount](preference)
+    - generate information on [profit to sales ratio](preference) and [amount](preference)
+    - highlight [total amount](preference) and [sales to profit ratio](preference) in the report
+    - extend the report with [profit to sales ratio](preference) and [profit%](preference)
+    - include [loss%](preference) and [profit to sales ratio](preference) in the report
+    - indicate parameters for [profit to sale ratio](preference) and [loss amount](preference)
+    - fetch [E/F Ratio](preference) and [G/H Ratio](preference)
+    - can I have details on [Q/R Ratio](preference) and [X/Y Ratio](preference)
+    - retrieve [L/M Ratio](preference) and [N/O Ratio](preference) from the data
+    - what is the [I/J Ratio](preference) for this dataset?
+    - get insights on [U/V Ratio](preference) and [W/Z Ratio](preference)
+    - show [R/S Ratio](preference) and [T/U Ratio](preference) side by side
+    - provide [P/Q Ratio](preference) and [M/N Ratio](preference) in the report
+    - display [H/I Ratio](preference) and [C/D Ratio](preference) on the graph
+    - fetch [F/G Ratio](preference) and [K/L Ratio](preference) for analysis
+    - add [Z/A Ratio](preference) and [B/C Ratio](preference) to the summary
+    - include [O/P Ratio](preference) and [G/H Ratio](preference) in the presentation
+    - can you retrieve [V/W Ratio](preference) and [R/S Ratio](preference) for me?
+    - show [Y/Z Ratio](preference) and [A/B Ratio](preference) on the dashboard
+    - provide [E/F Ratio](preference) and [L/M Ratio](preference) details
+    - add [S/T Ratio](preference) and [U/V Ratio](preference) to the analysis
+    - fetch [N/O Ratio](preference) and [Q/R Ratio](preference) for the specified period
+    - display [J/K Ratio](preference) and [X/Y Ratio](preference) in the chart
+    - show [I/J Ratio](preference) and [K/L Ratio](preference) trends over time
+    - provide [B/C Ratio](preference) and [D/E Ratio](preference) for the selected region
+    - fetch [T/U Ratio](preference) and [W/X Ratio](preference) from the database
+    - include [C/D Ratio](preference) and [M/N Ratio](preference) in the financial report
+    - add [O/P Ratio](preference) and [Q/R Ratio](preference) to the visualization
+    - retrieve [G/H Ratio](preference) and [Z/A Ratio](preference) statistics
+    - show [A/B Ratio](preference) and [N/O Ratio](preference) for the given parameters
+    - provide [K/L Ratio](preference) and [R/S Ratio](preference) for analysis
+    - display [X/Y Ratio](preference) and [Y/Z Ratio](preference) on the screen
+    - fetch [U/V Ratio](preference) and [I/J Ratio](preference) details
+    - include [L/M Ratio](preference) and [P/Q Ratio](preference) in the presentation
+    - show [D/E Ratio](preference) and [H/I Ratio](preference) trends over the last quarter
+    - retrieve [S/T Ratio](preference) and [V/W Ratio](preference) for the specified category
+    - provide [M/N Ratio](preference) and [F/G Ratio](preference) insights
+    - add [Z/A Ratio](preference) and [B/C Ratio](preference) to the analysis report
+    - include [O/P Ratio](preference) and [G/H Ratio](preference) in the summary
+    - fetch [V/W Ratio](preference) and [R/S Ratio](preference) for the selected timeframe
+    - show [Y/Z Ratio](preference) and [A/B Ratio](preference) on the performance chart
+    - provide [E/F Ratio](preference) and [L/M Ratio](preference) details for the analysis
+    - add [S/T Ratio](preference) and [U/V Ratio](preference) to the financial report
+    - fetch [N/O Ratio](preference) and [Q/R Ratio](preference) for the specific region
+    - display [J/K Ratio](preference) and [X/Y Ratio](preference) in the visualization
+    - show [I/J Ratio](preference) and [K/L Ratio](preference) trends over the past year
+    - provide [B/C Ratio](preference) and [D/E Ratio](preference) for the chosen market
+    - fetch [T/U Ratio](preference) and [W/X Ratio](preference) from the historical data
+    - include [C/D Ratio](preference) and [M/N Ratio](preference) in the quarterly report
+    - add [O/P Ratio](preference) and [Q/R Ratio](preference) to the performance dashboard
+    - retrieve [G/H Ratio](preference) and [Z/A Ratio](preference) statistics for analysis
+    - show [A/B Ratio](preference) and [N/O Ratio](preference) based on user preferences
+    - provide [K/L Ratio](preference) and [R/S Ratio](preference) for strategic planning
+    - display [X/Y Ratio](preference) and [Y/Z Ratio](preference) for decision-making
+    - fetch [U/V Ratio](preference) and [I/J Ratio](preference) details for performance review
+    - include [L/M Ratio](preference) and [P/Q Ratio](preference) in the annual presentation
+    - show [D/E Ratio](preference) and [H/I Ratio](preference)
+    - provide [sales to purchase ratio](preference) and [purchase to sales ratio](preference) insights
+    - add [total amount](preference) and [profit%](preference) to the analysis report
+    - include [profit to sale ratio](preference) and [purchase to profit ratio](preference) in the summary
+    - fetch [profit%](preference) and [profit to sales ratio](preference) for the selected timeframe
+    - show [profit to purchase ratio](preference) and [A/B Ratio](preference) on the performance chart
+    - provide [profit to sales ratio](preference) and [amount](preference) details for the analysis
+    - add [S/T Ratio](preference) and [loss percent](preference) to the financial report
+    - fetch [N/O Ratio](preference) and [profit percent](preference) for the specific region
+    - display [J/K Ratio](preference) and [loss%](preference) in the visualization
+    - show [profit%](preference) and [K/L Ratio](preference) trends over the past year
+    - provide [sales to profit ratio](preference) and [purchase to profit ratio](preference) for the chosen market
+    - fetch [T/U Ratio](preference), [sales to profit ratio](preference) and [purchase to profit ratio](preference) from the historical data
+    - include [C/D Ratio](preference), [profit%](preference), [profit to sales ratio](preference), [profit to purchase ratio](preference) and [M/N Ratio](preference) in the quarterly report
+    - add [profit%](preference) and [Q/R Ratio](preference) to the performance dashboard
+    - retrieve [sales to profit ratio](preference) and [Z/A Ratio](preference) statistics for analysis
+    - show [A/B Ratio](preference) and [purchase to profit ratio](preference) based on user preferences
+    - provide [K/L Ratio](preference) and [sale to profit ratio](preference) for strategic planning
+    - display [purchase to loss ratio](preference) and [Y/Z Ratio](preference) for decision-making
+    - show [sales contribution to total Ratio](preference) and [purchase to profit ratio](preference) based on user preferences
+    - provide [K/L Ratio](preference) and [sales contribution to total](preference) for strategic planning
+    - display [sale contribution to total ratio](preference) and [Y/Z Ratio](preference) for decision-making
+    - add [receipt quantity](preference) and [purchase to profit ratio](preference) to the information
+    - can i get [receipt quantity](preference) on the report.
+    - please provide me [receipt quantity](preference) and [receipt amount](preference) on the [sales](report).
+    - I also want to know [receipt amount](preference) on the [sales](metric) report.
+    - fetch [U/V Ratio](preference) and [loss to sales ratio](preference) details for performance review
+    - include [sales to loss ratio](preference) and [purchase to loss ratio](preference) in the annual presentation
+
+- intent: ask_metric
+  examples: |
+    - generate me [sales](metric)
+    - clarify me the [sale](metric) report
+    - explain me about [purchases](metric) history
+    - could you tell me about the [purchase](metric) report 
+    - please highlight me in detail about the [sale](metric) and [puchase](metric)
+    - give me information about the [sales](metric) and [purchases](metric) report.
+
+- intent: ask_metric_by_location
+  examples: |
+    - generate me [sales](metric) report by [zone](location)
+    - generate me [purchase](metric) report by [state](location)
+    - visualize me [purchase](metric) report by geographical [areas](location)
+    - extend the [sales](metric) report by [state](location)
+    
+    - generate me [purchase](metric) report by product[chain](location)
+    - visualize me [sales](metric) report involving [chains](location)
+    - by product [chains](location) and [area](location), can u help me with [sales](metric) report.
+    - By [apartment](location) provide me [purchase](metric) report
+    - tell me the existing (sales) report showing [purchase to sales ratio](preference) by [store](location)
+    - explain me the [P/S ratio](preference), [profit amount](preference) and [sales contribution to total ratio](preference) by [Region](location)
+    - illustrate the [purchase](metric) report by  [region](location)
+    - illustrate the [purchase](metric) report by particular [region](location)
+    - by [region](location), can u help me with [sales](metric) report.
+    - Please help me to find the [purchase](metric) details by [states](location).
+    - clarify the [sales](metric) by [country](location)
+    - By [state](location), show me [sales](metric) report.
+    - Based on different [region]s, different [districts](location) give me [purchase](metric) report.
+    - By [stores](location), clarify me the output of the [sales](metric).
+
+- intent: ask_metric_by_prodhier
+  examples: |
+    - generate me [sales](metric) report by [group](prodhier)
+    - generate me [purchase](metric) report by [class](prodhier)
+    - extend the [sales](metric) report by [product](prodhier)
+    - visualize me [purchase](metric) report by [group](prodhier)
+    - extend the [sales](metric) report by [item](prodhier)
+    - extend the [sales](metric) report by [item](prodhier) line
+    - By [group](prodhier) provide me [purchase](metric) report
+    - tell me the existing [sales](metric) report showing [purchase to sales ratio](preference) by [item](prodhier)
+    - tell me the existing [sales](metric) report showing [purchase to sales ratio](preference) by [item](prodhier) line
+    - explain me the [P/S ratio](preference), [profit amount](preference) and [sales contribution to total ratio](preference) by [sub-class](prodhier)
+    - illustrate the [purchase](metric) report by [product](prodhier) line and [sub-class](prodhier)
+
+    - extend the [sales](metric) report by all [product](prodhier) lines
+    - tell me the existing [sales](metric) report showing [purchase to sales ratio](preference) by specific [product](prodhier) line
+    - generate me [sales](metric) report by product [group](prodhier), product [category](prodhier)
+    - generate me [purchase](metric) report by product [class](prodhier)
+    - extend the [sales](metric) report by product [class](prodhier)
+    - visualize me [purchase](metric) report by item [group](prodhier)
+    - extend the [sales](metric) report by [product](prodhier), [class](prodhier)
+    - By item [group](prodhier) provide me [purchase](metric) report
+    - tell me the existing [sales](metric) report showing [purchase to sales ratio](preference) by product [category](prodhier)
+    - explain me the [P/S ratio](preference), [profit amount](preference) and [sales contribution to total ratio](preference) by item [sub-class](prodhier)
+    - illustrate the [purchase](metric) report by produt [sub-class](prodhier) and product [division](prodhier)
+    - tell me the existing [sales](metric) report showing [purchase to sales ratio](preference) by item [division](prodhier) line
+
+    - by [department](prodhier) and [item](prodhier), can u help me with [sales](metric) report.
+    - Please help me to find the [purchase](metric) details by [class](prodhier) and [sub class](prodhier).
+    - clarify the [sales](metric) by [department](prodhier) and [product](prodhier)
+    - By [division](prodhier) and [department](prodhier), show me [sales](metric) report.
+    - By [group](prodhier) and [sub-class](prodhier), clarify me the output of the [sales](metric).
+
+    - generate me [sales](metric) report by [group](prodhier), [class](prodhier), and [item](prodhier)
+    - generate me [purchase](metric) report by [class](prodhier), and [department](prodhier)
+    - visualize me [purchase](metric) report by [group](prodhier), [class](prodhier) and [sub-class](prodhier)
+    - extend the [sales](metric) report by [product](prodhier) line and [sub-class](prodhier)
+    - By [group](prodhier), [class](prodhier), [sub-class](prodhier) and [item](prodhier) provide me [purchase](metric) report
+    - tell me the existing [sales](metric) report showing [purchase to sales ratio](preference) by [item](prodhier)
+    - explain me the [P/S ratio](preference), [profit amount](preference) and [sales contribution to total ratio](preference) by [sub-class](prodhier) and [group](prodhier)
+    - illustrate the [purchase](metric) report by [item](prodhier) and [division](prodhier)
+    - by [department](prodhier), can u help me with [sales](metric) report.
+    - Please help me to find the [purchase](metric) details by [class](prodhier).
+    - clarify the [sales](metric) by [department](prodhier)
+    - By [division](prodhier), show me [sales](metric) report.
+    - By [group](prodhier), clarify me the output of the [sales](metric).
+
+- intent: ask_metric_by_timehier
+  examples: |
+    - generate me [sales](metric) report by [fiscal year](timehier), [quarter](timehier),
+    - generate me [purchase](metric) report by [piscal half year](timehier)
+    - visualize me [purchase](metric) report by [year](timehier)
+    - extend the [sales](metric) report by [fiscal month](timehier)
+    - By [fiscal week](timehier) provide me [purchase](metric) report
+    - tell me the existing [sales](metric) report showing [purchase to sales ratio](preference) by [days](timehier)
+    - explain me the [P/S ratio](preference), [profit amount](preference) and [sales contribution to total ratio](preference) by [day](timehier)
+    - illustrate the [purchase](metric) report by [month](timehier)
+    - by [quarter](timehier) period, can u help me with [sales](metric) report.
+    - by [semi annual](timehier) period, can u help me with [sales](metric) report.
+    - Please help me to find the [purchase](metric) details by [week](timehier).
+    - clarify the [sales](metric) by [quarter](timehier) period.
+    - By [fiscal quarter](timehier), show me [sales](metric) report.
+    - By [anuual](timehier) period, clarify me the output of the [sales](metric).
+    - generate me [sales](metric) report based on [fiscal year](timehier), [district](location), [week](timehier), [quarter period](timehier)
+    - based on [fiscal year](timehier), [district](location), [week](timehier), [quarter period](timehier), explain about [purchase](metric) report
+    - generate me [sales](metric) report by [fiscal year](timehier), [week](timehier), [quarter period](timehier)
+    - generate me [purchase](metric) report by [piscal half year](timehier) and [fiscal week](timehier)
+    - visualize me [purchase](metric) report by [year](timehier) and [fiscal quarter](timehier)
+    - extend the [sales](metric) report by [fiscal month](timehier), [fiscal week](timehier) and [semi annual](timehier) period.
+    - By [fiscal week](timehier), [fiscal quarter](timehier), [semi annual](timehier) period and [fiscal year](timehier) provide me [purchase](metric) report
+    - tell me the existing [sales](metric) report showing [purchase to sales ratio](preference) by [day](timehier), [fiscal year](timehier) and [fiscal quarter](timehier)
+    - explain me the [P/S ratio](preference), [profit amount](preference) and [sales contribution to total ratio](preference) by [day](timehier)
+    - illustrate the [purchase](metric) report by [month](timehier), [fiscal quarter](timehier)
+    - by [fiscal quarter](timehier) period and [days](timehier), can u help me with [sales](metric) report.
+    - by [semi annual](timehier) and [annual](timehier) period, can u help me with [sales](metric) report.
+    - Please help me to find the [purchase](metric) details by [week](timehier) and [fiscal year](timehier).
+    - clarify the [sales](metric) by [days](timehier), [fiscal month](timehier), [fiscal quarter](timehier), [semi annual](timehier) period and [fiscal year](timehier).
+    - By [fiscal quarter](timehier) and [month](timehier), show me [sales](metric) report.
+    - By [anuual](timehier) period and [semi annual](timehier) period, clarify me the output of the [sales](metric).
+
+- intent: ask_metric_by_mixedhier
+  examples: |
+    - generate me [sales](metric) report by [group](prodhier), [district](location), [class](prodhier), [year](timehier)
+    - generate me [purchase](metric) report by [class](prodhier), [zone](location)
+    - visualize me [purchase](metric) report by [group](prodhier), [fiscal year](timehier), [semi-annual](timehier) and [country](location)
+    - Please generate me [sales](metric) report based on product [group](prodhier) and geographical [areas](location)
+
+
+- intent: ask_metric_by_store_preference
+  examples: |
+    - Show me [purchase](metric) report for [Austin](store) store with sales [quantity](preference), [amount](preference) & [profit](preference). 
+    - Show me the [purchase](metric) for [ABC](store) store with [sales to purchase ratio](preference), [profit amount](preference).  
+    - Show me the [purchase](metric) report by stores  showing [amount](preference), [quantity](preference) and [profit amount](preference).
+    - Generate me [purchase](metric) report by stores with [profit sale ratio](preference), [sales to purchase ratio](preference), [amount](preference).
+    - Can you please get me [sales to purchase ratio](preference), [profit amount](preference) & [amount](preference) of [Plaza](store) of [purchase] report by stores.
+    - Show me the [purchase](metric) report for [Austin](store)  with [amount](preference), [quantity](preference) and [profit amount](preference).
+    - Generate me [purchase](metric) report for [ABC](store) with [profit sale ratio](preference), [sales to purchase ratio](preference), [amount](preference).
+    - I want to know about the [PSR](preference), [profit percent](preference), [loss%](preference).
+    - Can you please get me [sales to purchase ratio](preference), [profit amount](preference) & [amount](preference) of [Plaza](store) of [purchase] report.
+    - Generate me [purchase](metric) report for [Bhatbhateni](store) store having sales [quantity](preference) and [amount](preference).
+    - Would you please give me [purchase](metric) report including [quantity](preference), [amount](preference) and [profit](preference) of [Bhatbhateni](store).
+    - Provide a [purchase](metric) overview for [XYZ](store) store, highlighting [profit percentage](preference), [sales to purchase ratio](preference), and [amount](preference).
+    - I'm interested in the [purchase](metric) details for [Miami](store) store with a focus on [amount](preference), [profit](preference), and [quantity](preference).
+    - Generate a comprehensive [purchase](metric) report for [ABC Mall](store) store, covering [amount](preference), [quantity](preference), and [profit amount](preference).
+    - I'd like to see the [purchase](metric) report for [Phoenix](store) store, specifically looking at [profit amount](preference), [loss percentage](preference), and [quantity](preference).
+    - Provide insights into the [purchase](metric) performance of [City Center](store) store, including [profit amount](preference), [amount](preference), and [quantity](preference).
+    - Generate a [purchase](metric) overview for [Grand](store) store with a focus on [quantity](preference), [profit amount](preference), and [amount](preference).
+    - Can you fetch the [purchase](metric) details for [Metro](store) store, highlighting [amount](preference), [profit](preference), and [quantity](preference)?
+    - Show me [purchase](metric) report for [Austin](store) store with sales [quantity](preference), [amount](preference) & [profit](preference).
+    - Show me the [purchase](metric) for [ABC](store) store with [sales to purchase ratio](preference), [profit amount](preference).
+    - Show me the [purchase](metric) report for [Austin](store) with [amount](preference), [quantity](preference) and [profit amount](preference).
+    - Generate me [purchase](metric) report for [ABC](store) with [profit sale ratio](preference), [sales to purchase ratio](preference), [amount](preference).
+    - I want to know about the [PSR](preference), [profit percent](preference), [loss%](preference).
+    - Can you please get me [sales to purchase ratio](preference), [profit amount](preference) & [amount](preference) of [Plaza](store) of [purchase] report.
+    - Generate me [purchase](metric) report for [Bhatbhateni](store) store having sales [quantity](preference) and [amount](preference).
+    - Would you please give me [purchase](metric) report including [quantity](preference), [amount](preference) and [profit](preference) of [Bhatbhateni](store).
+    - Show me [purchase](metric) details for [Dallas](store) store with [sales to purchase ratio](preference), [loss percentage](preference), and [quantity](preference).
+    - Generate a comprehensive [purchase](metric) report for [XYZ](store) store, covering [profit percentage](preference), [quantity](preference), and [amount](preference).
+    - I'm interested in the [purchase](metric) details for [Miami](store) store with a focus on [amount](preference), [profit](preference), and [quantity](preference).
+    - Provide insights into the [purchase](metric) performance of [ABC Mall](store) store, including [profit amount](preference), [amount](preference), and [quantity](preference).
+    - Could you please fetch the [purchase](metric) details for [Central](store) store, emphasizing [profit percentage](preference), [quantity](preference), and [amount](preference)?
+    - I'd like to see the [purchase](metric) report for [Phoenix](store) store, specifically looking at [profit amount](preference), [loss percentage](preference), and [quantity](preference).
+    - Provide a [purchase](metric) overview for [City Center](store) store, highlighting [profit amount](preference), [sales to purchase ratio](preference), and [loss percentage](preference).
+    - Show me the [purchase](metric) report for [Harbor](store) store, covering [profit percent](preference), [sales to purchase ratio](preference), and [loss percentage](preference).
+    - Generate a [purchase](metric) overview for [Grand](store) store with a focus on [quantity](preference), [profit amount](preference), and [amount](preference).
+    - Can you fetch the [purchase](metric) details for [Metro](store) store, highlighting [amount](preference), [profit](preference), and [quantity](preference)?
+    - Show me [purchase](metric) report for [Bay](store) store with [sales to purchase ratio](preference), [loss percentage](preference), and [quantity](preference).
+    - Provide a detailed [purchase](metric) report for [South](store) store, including [profit amount](preference), [sales to purchase ratio](preference), and [loss percentage](preference).
+    - Show me the [purchase](metric) details for [ABC](store) store, including [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [profit amount](preference).
+    - Provide a report on [ABC](store) store's [purchase](metric) with [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [profit amount](preference).
+    - Fetch the [purchase](metric) data for [ABC](store) store, covering [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [profit amount](preference).
+    - Generate a comprehensive [purchase](metric) report for [ABC](store) store, focusing on [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [profit amount](preference).
+    - Could you please show me the [purchase](metric) information for [ABC](store) store with [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [profit amount](preference)?
+    - I want to know about the [purchase](metric) specifics for [ABC](store) store, particularly [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [profit amount](preference).
+    - Provide insights into the [purchase](metric) performance of [ABC](store) store, covering [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [profit amount](preference).
+    - Show me the [purchase](metric) breakdown for [ABC](store) store, including [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [profit amount](preference).
+    - Generate a [purchase](metric) overview for [ABC](store) store, highlighting [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [profit amount](preference).
+    - Can you fetch the [purchase](metric) report for [ABC](store) store, focusing on [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [profit amount](preference)?
+    - Provide me with details about the [purchase](metric) for [ABC](store) store, specifically [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [profit amount](preference).
+    - Show me [ABC](store) store's [purchase](metric) performance, emphasizing [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [profit amount](preference).
+    - I'd like to see the [purchase](metric) breakdown for [ABC](store) store, covering [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [profit amount](preference).
+    - Fetch the [purchase](metric) details for [ABC](store) store,
+    - Provide a report on [LMN](store) store's [purchase](metric) with [purchase to sales ratio](preference), [P/S ratio](preference), and [net profit](preference).
+    - Fetch the [purchase](metric) for [ABC](store) store, covering [SPR](preference), [P/S ratio](preference), and [earnings](preference).
+    - Generate a comprehensive [purchase](metric) for [DEF](store) store, focusing on [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [earnings](preference).
+    - Could you please show me the [purchase](metric) for [GHI](store) store with [SPR](preference), [P/S ratio](preference), and [net profit](preference)?
+    - I want to know about the [purchase](metric) specifics for [JKL](store) store, particularly [SPR](preference), [P/S ratio](preference), and [earnings](preference).
+    - Provide insights into the [purchase](metric) performance of [MNO](store) store, covering [purchase to sales ratio](preference), [P/S ratio](preference), and [net profit](preference).
+    - Show me the [purchase](metric) breakdown for [PQR](store) store, including [SPR](preference), [P/S ratio](preference), and [earnings](preference).
+    - Generate a [purchase](metric) for [STU](store) store, highlighting [SPR](preference), [P/S ratio](preference), and [net profit](preference).
+    - Can you fetch the [purchase](metric) for [VWX](store) store, focusing on [sales to purchase ratio](preference), [P/S ratio](preference), and [earnings](preference)?
+    - Provide [purchase](metric) details for [LMN](store) store, including [SPR](preference), [P/S ratio](preference), and [net earnings](preference).
+    - Show me [purchase](metric) for [DEF](store) store, emphasizing [sales to purchase ratio](preference), [P/S ratio](preference), and [earnings](preference).
+    - Fetch [purchase](metric) for [JKL](store) store's [performance](metric), covering [SPR](preference), [P/S ratio](preference), and [net profit](preference).
+    - Generate [purchase](metric) for [GHI](store) store, focusing on [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [earnings](preference).
+    - Could you please show [purchase](metric) for [VWX](store) store with [SPR](preference), [P/S ratio](preference), and [net profit](preference)?
+    - Provide insights into [purchase](metric) performance of [STU](store) store, covering [SPR](preference), [P/S ratio](preference), and [net earnings](preference).
+    - Show [purchase](metric) of [PQR](store) store's [data](metric), including [SPR](preference), [P/S ratio](preference), and [earnings](preference).
+    - Generate [purchase](metric) for [MNO](store) store, highlighting [SPR](preference), [P/S ratio](preference), and [net profit](preference).
+    - Can you fetch [purchase](metric) for [XYZ](store) store, focusing on [sales to purchase ratio](preference), [P/S ratio](preference), and [earnings](preference)?
+    - Provide [purchase](metric) for [ABC](store) store, particularly [SPR](preference), [P/S ratio](preference), and [net earnings](preference).
+    - [purchase](metric) report by stores showing [profit to purchase ratio](preference), [purchase to profit ratio](preference), [p/S ratio](preference).
+    - Provide me detail on [profit to sale ratio](preference), [purchase to profit ratio](preference), [p/S ratio](preference) by stores.
+    - By [departments](prodhier), show me [profit to purchase ratio](preference), [quantity](preference), [p/S ratio](preference)
+    - Show me [purchase](metric) report for [Austin](store) store with [quantity](preference), [amount](preference) & [profit](preference).
+    - Show me [purchase](metric) details for [ABC](store) store, including [sales to purchase ratio](preference), [profit amount](preference).
+    - By [departments](prodhier), show me [profit to sale ratio](preference), [quantity](preference), [p/S ratio](preference).
+    - Show me the [purchase](metric) report showing [profit amount](preference)
+    - Visualize me [purchase](metric) report including [profit to sale ratio](preference) and [profit amount](preference)
+    - Show me [sales](metric) report for [Austin](store) store with sales [quantity](preference), [amount](preference) & [profit](preference). 
+    - Show me the [sales](metric) for [ABC](store) store with [sales to purchase ratio](preference), [profit amount](preference).  
+    - Show me the [sales](metric) report by stores  showing [amount](preference), [quantity](preference) and [profit amount](preference).
+    - Generate me [sales](metric) report by stores with [profit sale ratio](preference), [sales to purchase ratio](preference), [amount](preference).
+    - Can you please get me [sales to purchase ratio](preference), [profit amount](preference) & [amount](preference) of [Plaza](store) of [sales] report by stores.
+    - Show me the [sales](metric) report for [Austin](store)  with [amount](preference), [quantity](preference) and [profit amount](preference).
+    - Generate me [sales](metric) report for [ABC](store) with [profit sale ratio](preference), [sales to purchase ratio](preference), [amount](preference).
+    - I want to know about the [PSR](preference), [profit percent](preference), [loss%](preference).
+    - Can you please get me [sales to purchase ratio](preference), [profit amount](preference) & [amount](preference) of [Plaza](store) of [sales] report.
+    - Generate me [sales](metric) report for [Bhatbhateni](store) store having sales [quantity](preference) and [amount](preference).
+    - Would you please give me [sales](metric) report including [quantity](preference), [amount](preference) and [profit](preference) of [Bhatbhateni](store).
+    - Provide a [sales](metric) overview for [XYZ](store) store, highlighting [profit percentage](preference), [sales to purchase ratio](preference), and [amount](preference).
+    - I'm interested in the [sales](metric) details for [Miami](store) store with a focus on [amount](preference), [profit](preference), and [quantity](preference).
+    - Generate a comprehensive [sales](metric) report for [ABC Mall](store) store, covering [amount](preference), [quantity](preference), and [profit amount](preference).
+    - I'd like to see the [sales](metric) report for [Phoenix](store) store, specifically looking at [profit amount](preference), [loss percentage](preference), and [quantity](preference).
+    - Provide insights into the [sales](metric) performance of [City Center](store) store, including [profit amount](preference), [amount](preference), and [quantity](preference).
+    - Generate a [sales](metric) overview for [Grand](store) store with a focus on [quantity](preference), [profit amount](preference), and [amount](preference).
+    - Can you fetch the [sales](metric) details for [Metro](store) store, highlighting [amount](preference), [profit](preference), and [quantity](preference)?
+    - Show me [sales](metric) report for [Austin](store) store with sales [quantity](preference), [amount](preference) & [profit](preference).
+    - Show me the [sales](metric) for [ABC](store) store with [sales to purchase ratio](preference), [profit amount](preference).
+    - Show me the [sales](metric) report for [Austin](store) with [amount](preference), [quantity](preference) and [profit amount](preference).
+    - Generate me [sales](metric) report for [ABC](store) with [profit sale ratio](preference), [sales to purchase ratio](preference), [amount](preference).
+    - I want to know about the [PSR](preference), [profit percent](preference), [loss%](preference).
+    - Can you please get me [sales to purchase ratio](preference), [profit amount](preference) & [amount](preference) of [Plaza](store) of [sales] report.
+    - Generate me [sales](metric) report for [Bhatbhateni](store) store having sales [quantity](preference) and [amount](preference).
+    - Would you please give me [sales](metric) report including [quantity](preference), [amount](preference) and [profit](preference) of [Bhatbhateni](store).
+    - Show me [sales](metric) details for [Dallas](store) store with [sales to purchase ratio](preference), [loss percentage](preference), and [quantity](preference).
+    - Generate a comprehensive [sales](metric) report for [XYZ](store) store, covering [profit percentage](preference), [quantity](preference), and [amount](preference).
+    - I'm interested in the [sales](metric) details for [Miami](store) store with a focus on [amount](preference), [profit](preference), and [quantity](preference).
+    - Provide insights into the [sales](metric) performance of [ABC Mall](store) store, including [profit amount](preference), [amount](preference), and [quantity](preference).
+    - Could you please fetch the [sales](metric) details for [Central](store) store, emphasizing [profit percentage](preference), [quantity](preference), and [amount](preference)?
+    - I'd like to see the [sales](metric) report for [Phoenix](store) store, specifically looking at [profit amount](preference), [loss percentage](preference), and [quantity](preference).
+    - Provide a [sales](metric) overview for [City Center](store) store, highlighting [profit amount](preference), [sales to purchase ratio](preference), and [loss percentage](preference).
+    - Show me the [sales](metric) report for [Harbor](store) store, covering [profit percent](preference), [sales to purchase ratio](preference), and [loss percentage](preference).
+    - Generate a [sales](metric) overview for [Grand](store) store with a focus on [quantity](preference), [profit amount](preference), and [amount](preference).
+    - Can you fetch the [sales](metric) details for [Metro](store) store, highlighting [amount](preference), [profit](preference), and [quantity](preference)?
+    - Show me [sales](metric) report for [Bay](store) store with [sales to purchase ratio](preference), [loss percentage](preference), and [quantity](preference).
+    - Provide a detailed [sales](metric) report for [South](store) store, including [profit amount](preference), [sales to purchase ratio](preference), and [loss percentage](preference).
+    - Show me the [sales](metric) details for [ABC](store) store, including [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [profit amount](preference).
+    - Provide a report on [ABC](store) store's [sales](metric) with [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [profit amount](preference).
+    - Fetch the [sales](metric) data for [ABC](store) store, covering [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [profit amount](preference).
+    - Generate a comprehensive [sales](metric) report for [ABC](store) store, focusing on [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [profit amount](preference).
+    - Could you please show me the [sales](metric) information for [ABC](store) store with [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [profit amount](preference)?
+    - I want to know about the [sales](metric) specifics for [ABC](store) store, particularly [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [profit amount](preference).
+    - Provide insights into the [sales](metric) performance of [ABC](store) store, covering [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [profit amount](preference).
+    - Show me the [sales](metric) breakdown for [ABC](store) store, including [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [profit amount](preference).
+    - Generate a [sales](metric) overview for [ABC](store) store, highlighting [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [profit amount](preference).
+    - Can you fetch the [sales](metric) report for [ABC](store) store, focusing on [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [profit amount](preference)?
+    - Provide me with details about the [sales](metric) for [ABC](store) store, specifically [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [profit amount](preference).
+    - Show me [ABC](store) store's [sales](metric) performance, emphasizing [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [profit amount](preference).
+    - I'd like to see the [sales](metric) breakdown for [ABC](store) store, covering [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [profit amount](preference).
+    - Fetch the [sales](metric) details for [ABC](store) store,
+    - Provide a report on [LMN](store) store's [sales](metric) with [purchase to sales ratio](preference), [P/S ratio](preference), and [net profit](preference).
+    - Fetch the [sales](metric) for [ABC](store) store, covering [SPR](preference), [P/S ratio](preference), and [earnings](preference).
+    - Generate a comprehensive [sales](metric) for [DEF](store) store, focusing on [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [earnings](preference).
+    - Could you please show me the [sales](metric) for [GHI](store) store with [SPR](preference), [P/S ratio](preference), and [net profit](preference)?
+    - I want to know about the [sales](metric) specifics for [JKL](store) store, particularly [SPR](preference), [P/S ratio](preference), and [earnings](preference).
+    - Provide insights into the [sales](metric) performance of [MNO](store) store, covering [purchase to sales ratio](preference), [P/S ratio](preference), and [net profit](preference).
+    - Show me the [sales](metric) breakdown for [PQR](store) store, including [SPR](preference), [P/S ratio](preference), and [earnings](preference).
+    - Generate a [sales](metric) for [STU](store) store, highlighting [SPR](preference), [P/S ratio](preference), and [net profit](preference).
+    - Can you fetch the [sales](metric) for [VWX](store) store, focusing on [sales to purchase ratio](preference), [P/S ratio](preference), and [earnings](preference)?
+    - Provide [sales](metric) details for [LMN](store) store, including [SPR](preference), [P/S ratio](preference), and [net earnings](preference).
+    - Show me [sales](metric) for [DEF](store) store, emphasizing [sales to purchase ratio](preference), [P/S ratio](preference), and [earnings](preference).
+    - Fetch [sales](metric) for [JKL](store) store's [performance](metric), covering [SPR](preference), [P/S ratio](preference), and [net profit](preference).
+    - Generate [sales](metric) for [GHI](store) store, focusing on [sales to purchase ratio](preference), [purchase to sales ratio](preference), and [earnings](preference).
+    - Could you please show [sales](metric) for [VWX](store) store with [SPR](preference), [P/S ratio](preference), and [net profit](preference)?
+    - Provide insights into [sales](metric) performance of [STU](store) store, covering [SPR](preference), [P/S ratio](preference), and [net earnings](preference).
+    - Show [sales](metric) of [PQR](store) store's [data](metric), including [SPR](preference), [P/S ratio](preference), and [earnings](preference).
+    - Generate [sales](metric) for [MNO](store) store, highlighting [SPR](preference), [P/S ratio](preference), and [net profit](preference).
+    - Can you fetch [sales](metric) for [XYZ](store) store, focusing on [sales to purchase ratio](preference), [P/S ratio](preference), and [earnings](preference)?
+    - Provide [sales](metric) for [ABC](store) store, particularly [SPR](preference), [P/S ratio](preference), and [net earnings](preference).
+    - [sales](metric) report by stores showing [profit to sales ratio](preference), [sales to profit ratio](preference), [p/S ratio](preference).
+    - Provide me detail on [profit to sale ratio](preference), [sales to profit ratio](preference), [p/S ratio](preference) by stores.
+    - By [departments](prodhier), show me [profit to sales ratio](preference), [quantity](preference), [p/S ratio](preference)
+    - Show me [sales](metric) report for [Austin](store) store with [quantity](preference), [amount](preference) & [profit](preference).
+    - Show me [sales](metric) details for [ABC](store) store, including [sales to purchase ratio](preference), [profit amount](preference).
+    - By [departments](prodhier), show me [profit to sale ratio](preference), [quantity](preference), [p/S ratio](preference).
+    - Show me the [sales](metric) report showing [profit amount](preference)
+    - Visualize me [sales](metric) report including [profit to sale ratio](preference) and [profit amount](preference)
+    
+synonyms:
+  - sales: sales amount
+  - sale: sales amount
+  - purchases: purchase amount
+  - purchase: purchase amount
+  - store: retail store
+  - location: geographical location
+  - zone: geographical zone
+  - state: geographical state
+  - areas: geographical areas
+  - chain: product chain
+  - chains: product chains
+  - apartment: residential area
+  - store: retail store
+  - region: geographical region
+  - district: geographical district
+  - country: geographical country
+
+  

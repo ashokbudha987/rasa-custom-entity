@@ -1,0 +1,208 @@
+[
+  {
+    "text": "By apartment provide me purchase report",
+    "entities": [
+      {
+        "start": 3,
+        "end": 12,
+        "value": "apartment",
+        "entity": "location"
+      },
+      {
+        "start": 24,
+        "end": 32,
+        "value": "purchase",
+        "entity": "metric"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "prodhier",
+        "start": 3,
+        "end": 12,
+        "confidence_entity": 0.44100409746170044,
+        "value": "apartment",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "metric",
+        "start": 24,
+        "end": 32,
+        "confidence_entity": 0.9998828768730164,
+        "value": "purchase",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "by product chains and area, can u help me with sales report.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "chains",
+        "entity": "location"
+      },
+      {
+        "start": 22,
+        "end": 26,
+        "value": "area",
+        "entity": "location"
+      },
+      {
+        "start": 47,
+        "end": 52,
+        "value": "sales",
+        "entity": "metric"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "metric",
+        "start": 47,
+        "end": 52,
+        "confidence_entity": 0.9999043345451355,
+        "value": "sales",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tell me the existing sales report showing purchase to sales ratio by product category",
+    "entities": [
+      {
+        "start": 21,
+        "end": 26,
+        "value": "sales",
+        "entity": "metric"
+      },
+      {
+        "start": 42,
+        "end": 65,
+        "value": "purchase to sales ratio",
+        "entity": "preference"
+      },
+      {
+        "start": 77,
+        "end": 85,
+        "value": "category",
+        "entity": "prodhier"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "metric",
+        "start": 21,
+        "end": 26,
+        "confidence_entity": 0.9996730089187622,
+        "value": "sales",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "preference",
+        "start": 42,
+        "end": 65,
+        "confidence_entity": 0.9994157552719116,
+        "value": "purchase to sales ratio",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "prodhier",
+        "start": 69,
+        "end": 76,
+        "confidence_entity": 0.669739305973053,
+        "value": "product",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "prodhier",
+        "start": 77,
+        "end": 85,
+        "confidence_entity": 0.9237368106842041,
+        "value": "category",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Provide me detail on profit to sale ratio, sales to profit ratio, p/S ratio by stores.",
+    "entities": [
+      {
+        "start": 21,
+        "end": 41,
+        "value": "profit to sale ratio",
+        "entity": "preference"
+      },
+      {
+        "start": 43,
+        "end": 64,
+        "value": "sales to profit ratio",
+        "entity": "preference"
+      },
+      {
+        "start": 66,
+        "end": 75,
+        "value": "p/S ratio",
+        "entity": "preference"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "preference",
+        "start": 21,
+        "end": 41,
+        "confidence_entity": 0.9975465536117554,
+        "value": "profit to sale ratio",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "preference",
+        "start": 43,
+        "end": 64,
+        "confidence_entity": 0.912944495677948,
+        "value": "sales to profit ratio",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "preference",
+        "start": 66,
+        "end": 75,
+        "confidence_entity": 0.999549925327301,
+        "value": "P/S ratio",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "location",
+        "start": 79,
+        "end": 85,
+        "confidence_entity": 0.5004012584686279,
+        "value": "stores",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  }
+]

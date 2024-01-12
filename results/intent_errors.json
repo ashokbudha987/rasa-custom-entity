@@ -1,0 +1,378 @@
+[
+  {
+    "text": "generate me purchase report by class, zone",
+    "intent": "ask_metric_by_mixedhier",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "generate me sales",
+    "intent": "ask_metric",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "Please help me to find the purchase details by states.",
+    "intent": "ask_metric_by_location",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "By apartment provide me purchase report",
+    "intent": "ask_metric_by_location",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "generate me sales report by zone",
+    "intent": "ask_metric_by_location",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "by product chains and area, can u help me with sales report.",
+    "intent": "ask_metric_by_location",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "generate me sales report based on fiscal year, district, week, quarter period",
+    "intent": "ask_metric_by_timehier",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "By fiscal week provide me purchase report",
+    "intent": "ask_metric_by_timehier",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "tell me the existing sales report showing purchase to sales ratio by day, fiscal year and fiscal quarter",
+    "intent": "ask_metric_by_timehier",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "clarify the sales by days, fiscal month, fiscal quarter, semi annual period and fiscal year.",
+    "intent": "ask_metric_by_timehier",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "visualize me purchase report by year",
+    "intent": "ask_metric_by_timehier",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "by semi annual period, can u help me with sales report.",
+    "intent": "ask_metric_by_timehier",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "by department and item, can u help me with sales report.",
+    "intent": "ask_metric_by_prodhier",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "generate me sales report by product group, product category",
+    "intent": "ask_metric_by_prodhier",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "Please help me to find the purchase details by class.",
+    "intent": "ask_metric_by_prodhier",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "visualize me purchase report by group",
+    "intent": "ask_metric_by_prodhier",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "by department, can u help me with sales report.",
+    "intent": "ask_metric_by_prodhier",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "tell me the existing sales report showing purchase to sales ratio by product category",
+    "intent": "ask_metric_by_prodhier",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "By division, show me sales report.",
+    "intent": "ask_metric_by_prodhier",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "By item group provide me purchase report",
+    "intent": "ask_metric_by_prodhier",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "Show me the purchase report by stores  showing amount, quantity and profit amount.",
+    "intent": "ask_metric_by_store_preference",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "Could you please show me the sales for GHI store with SPR, P/S ratio, and net profit?",
+    "intent": "ask_metric_by_store_preference",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "Provide a purchase overview for XYZ store, highlighting profit percentage, sales to purchase ratio, and amount.",
+    "intent": "ask_metric_by_store_preference",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "Fetch the sales details for ABC store,",
+    "intent": "ask_metric_by_store_preference",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "By departments, show me profit to sale ratio, quantity, p/S ratio.",
+    "intent": "ask_metric_by_store_preference",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "sales report by stores showing profit to sales ratio, sales to profit ratio, p/S ratio.",
+    "intent": "ask_metric_by_store_preference",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "Can you please get me sales to purchase ratio, profit amount & amount of Plaza of [purchase] report by stores.",
+    "intent": "ask_metric_by_store_preference",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "Show me the purchase report for Austin  with amount, quantity and profit amount.",
+    "intent": "ask_metric_by_store_preference",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "Provide me detail on profit to sale ratio, purchase to profit ratio, p/S ratio by stores.",
+    "intent": "ask_metric_by_store_preference",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "Provide insights into the purchase performance of ABC store, covering sales to purchase ratio, purchase to sales ratio, and profit amount.",
+    "intent": "ask_metric_by_store_preference",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "Fetch the purchase details for ABC store,",
+    "intent": "ask_metric_by_store_preference",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "Show me the sales breakdown for ABC store, including sales to purchase ratio, purchase to sales ratio, and profit amount.",
+    "intent": "ask_metric_by_store_preference",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "Generate a comprehensive purchase report for ABC Mall store, covering amount, quantity, and profit amount.",
+    "intent": "ask_metric_by_store_preference",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "Provide me detail on profit to sale ratio, sales to profit ratio, p/S ratio by stores.",
+    "intent": "ask_metric_by_store_preference",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "I want to know about the purchase specifics for JKL store, particularly SPR, P/S ratio, and earnings.",
+    "intent": "ask_metric_by_store_preference",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "Can you fetch the sales report for ABC store, focusing on sales to purchase ratio, purchase to sales ratio, and profit amount?",
+    "intent": "ask_metric_by_store_preference",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "Show me the sales report for Austin  with amount, quantity and profit amount.",
+    "intent": "ask_metric_by_store_preference",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "Show me the sales breakdown for PQR store, including SPR, P/S ratio, and earnings.",
+    "intent": "ask_metric_by_store_preference",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "Visualize me sales report including profit to sale ratio and profit amount",
+    "intent": "ask_metric_by_store_preference",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "I'd like to see the purchase breakdown for ABC store, covering sales to purchase ratio, purchase to sales ratio, and profit amount.",
+    "intent": "ask_metric_by_store_preference",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "Can you fetch the sales details for Metro store, highlighting amount, profit, and quantity?",
+    "intent": "ask_metric_by_store_preference",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "Provide insights into the sales performance of MNO store, covering purchase to sales ratio, P/S ratio, and net profit.",
+    "intent": "ask_metric_by_store_preference",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "Show me purchase details for Dallas store with sales to purchase ratio, loss percentage, and quantity.",
+    "intent": "ask_metric_by_store_preference",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "I'd like to see the sales breakdown for ABC store, covering sales to purchase ratio, purchase to sales ratio, and profit amount.",
+    "intent": "ask_metric_by_store_preference",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "By departments, show me profit to sales ratio, quantity, p/S ratio",
+    "intent": "ask_metric_by_store_preference",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "Show me purchase details for ABC store, including sales to purchase ratio, profit amount.",
+    "intent": "ask_metric_by_store_preference",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  },
+  {
+    "text": "Show me the purchase for ABC store with sales to purchase ratio, profit amount.",
+    "intent": "ask_metric_by_store_preference",
+    "intent_prediction": {
+      "name": "",
+      "confidence": 0.0
+    }
+  }
+]

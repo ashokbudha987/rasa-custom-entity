@@ -1,0 +1,39 @@
+version: "3.1"
+
+intents:
+  - inform_preferences
+  - ask_metric
+  - ask_metric_by_location
+  - ask_metric_by_store_preference
+  - ask_metric_by_prodhier
+  - ask_metric_by_timehier
+  
+entities:
+  - timehier:
+      type: list
+  - prodhier:
+      type: list
+  - filter:
+      type: text
+  - metric:
+      type: text
+  - preference:
+      type: list
+  - store:
+      type: text
+
+slots:
+  metric:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: metric
+  preference:
+    type: list
+    mappings:
+    - type: from_entity
+      entity: preference
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

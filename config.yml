@@ -1,0 +1,51 @@
+# The config recipe.
+# https://rasa.com/docs/rasa/model-configuration/
+recipe: default.v1
+
+# The assistant project unique identifier
+# This default value must be replaced with a unique assistant name within your deployment
+assistant_id: 20231227-141230-raw-alignment
+
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: en
+
+# components:
+#   default_v1_recipe:
+#     component_types: [MESSAGE_TOKENIZER]
+#     pipeline:
+#       - name: CustomTokenizer
+#       - classname: custom_tokenizer.CustomTokenizer  
+
+pipeline: 
+# - name: HFTransformersNLP
+#   model_name: "bert"
+#   model_weights: "bert-base-uncased"
+- name: WhitespaceTokenizer
+- name: LanguageModelFeaturizer
+  model_name: "bert"
+  model_weights: "bert-base-uncased"
+- name: DucklingEntityExtractor 
+- name: "DIETClassifier"
+  intent_classification: False
+  constrain_similarities: True 
+  epochs: 200
+  dropout: 0.2
+- name: "EntitySynonymMapper"
+
+
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+policies:
+# # No configuration for policies was provided. The following default policies were used to train your model.
+# # If you'd like to customize them, uncomment and adjust the policies.
+# # See https://rasa.com/docs/rasa/policies for more information.
+#   - name: MemoizationPolicy
+  - name: RulePolicy
+#   - name: UnexpecTEDIntentPolicy
+#     max_history: 5
+#     epochs: 100
+#   - name: TEDPolicy
+#     max_history: 5
+#     epochs: 100
+#     constrain_similarities: true
